@@ -7,4 +7,23 @@
         android:layout_height="match_parent"
         tools:context="com.example.mark.myapplication.Main2Activity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="362dp"
+        android:layout_height="65dp"
+        android:layout_marginRight="16dp"
+        android:text="This app allows you to take a picture and invert the colors. You can hit the reverse button if you wish to convert back to your original image"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginBottom="144dp"
+        android:text="Start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 </android.support.constraint.ConstraintLayout>
